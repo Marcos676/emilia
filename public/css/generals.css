@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+
+/* Variables */
+:root{
+    --colorVerde: #44a392;
+    --colorVerdeOscuro: #91b3ad;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 li{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 

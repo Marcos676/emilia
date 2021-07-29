@@ -1,0 +1,23 @@
+
+header {
+    text-transform: uppercase;
+}
+
+header .redes a{
+    font-size: 14px;
+}
+
+.header-vertical{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header-vertical nav ul li{
+    line-height: 40px;
+}
+
+.header-vertical nav ul li a{
+    color: grey;
+    font-size: 15px;
+}
+
