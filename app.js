@@ -10,6 +10,7 @@ app.use(express.static('public'));
 
 app.get( '/' , (req , res) => res.sendFile(path.join(__dirname, 'views', 'home.html'))  )
 app.get( '/about' , (req , res) => res.sendFile(path.join(__dirname, 'views', 'home.html'))  )
+app.get( '/music' , (req , res) => res.sendFile(path.join(__dirname, 'views', 'music.html'))  )
 
 
 app.listen( port , () => console.log('Servidor corriendo en el puerto ' + port + ' http://localhost:' + port))
